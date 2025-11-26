@@ -90,7 +90,7 @@ namespace Avalonia.LeakTests
 
                 var target = new TextBlock();
 
-                target.Bind(TextBlock.TextProperty, new CompiledBindingExtension
+                target.Bind(TextBlock.TextProperty, new CompiledBinding
                 {
                     Source = source,
                     Path = path
@@ -118,7 +118,7 @@ namespace Avalonia.LeakTests
 
                 var target = new TextBlock();
 
-                target.Bind(TextBlock.TextProperty, new CompiledBindingExtension
+                target.Bind(TextBlock.TextProperty, new CompiledBinding
                 {
                     Source = source,
                     Path = path
@@ -150,7 +150,7 @@ namespace Avalonia.LeakTests
 
                 var target = new Button();
 
-                target.Bind(Button.CommandProperty, new CompiledBindingExtension
+                target.Bind(Button.CommandProperty, new CompiledBinding
                 {
                     Source = source,
                     Path = path
